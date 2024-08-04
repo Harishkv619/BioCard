@@ -2,13 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
     background-color: #7360DF;
-    margin-top: 70px;
-    margin-left: 300px;
-    padding-top: 70px;
-    padding-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
 .card{
     background-color: #ffff;
     width: 400px;
@@ -21,20 +23,27 @@ body{
     align-items: center;
     gap: 20px;
 }
+
 .profile{
     background-color: #00C4FF;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 img{
     height: 280px;
     width: 250px;
     padding: 10px;
 }
+
 p{
     opacity: 0.5;
     font-size: 16px;
     text-align: center;
 }
+
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
